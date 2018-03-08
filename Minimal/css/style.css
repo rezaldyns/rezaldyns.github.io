@@ -1,0 +1,42 @@
+.jumbotron{
+    background-color: white !important;
+    z-index: 1 !important;
+}
+
+p {
+    font-family: inherit;
+    font-size: 25px
+}
+
+.navbar{
+    position: absolute;
+    z-index:  !important;
+    font-size: 20px;
+    padding: 30px !important;
+    z-index: 2;
+}
+
+.navbar-brand{
+    font-family: monospace;
+}
+
+.carousel {
+    -webkit-box-shadow: -11px 13px 31px -6px rgba(0,0,0,0.28);
+}
+
+@media screen and (min-width: 480px) {
+    .jumbotron {padding-top: 150px !important;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #carouselSlidesOnly {!important;
+        
+    }
+}
+
+.rounded{
+    margin-top: 30px;
+     -webkit-box-shadow: -11px 13px 35px -19px rgba(0,0,0,0.28);
+}
